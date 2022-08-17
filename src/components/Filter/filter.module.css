@@ -1,0 +1,44 @@
+.filter {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 15%;
+  height: fit-content;
+  border: 2px solid lightblue;
+  border-radius: 5px;
+}
+
+h3 {
+  margin-top: 5%;
+  color: rgb(127, 176, 192);
+}
+
+h4 {
+  color: rgb(127, 176, 192);
+  margin-top: 20%;
+  text-align: center;
+}
+
+.list_wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  height: fit-content;
+}
+
+.list_wrapper > .category_item {
+  margin: 5%;
+  letter-spacing: 1px;
+  margin: 10px 0;
+  text-align: center;
+}
+
+.list_wrapper > .category_item:hover {
+  color: blue;
+}
+.list_wrapper > .category_item:active {
+  color: blue;
+}

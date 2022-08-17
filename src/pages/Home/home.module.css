@@ -1,0 +1,32 @@
+.cart_length {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-right: 50px;
+}
+.wrapper {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 20px;
+}
+
+.description {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app_title {
+  display: flex;
+  justify-content: center;
+  font-size: 2rem;
+  font-weight: bold;
+  color: rgb(147, 195, 211);
+  margin: 20px 0;
+}
+
+.cart_length{
+  margin-bottom:20px;
+}
+
+
